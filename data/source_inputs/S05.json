@@ -1,0 +1,49 @@
+{
+  "source": {
+    "id": "S05",
+    "title": "Jinro Game｜狼人殺規則與玩法",
+    "url": "https://jinro-game.com/zh-hant/rules/",
+    "scope": "JINRO_BROWSER",
+    "type": "alternate rules engine",
+    "summary": "線上遊戲版本採狼人追平人數勝利及首夜無人出局，不可套用至本作主板。"
+  },
+  "capture": {
+    "method": "researcher_paraphrase_of_web_verified_article",
+    "reviewed_on": "2026-11-21",
+    "original_full_text_included": false,
+    "notice": "已查閱網頁並整理為原創中文來源筆記；不是自動 HTTP 全文下載。"
+  },
+  "reviewed_text": "這是一款可在瀏覽器遊玩的狼人殺變體，其敘述和本教學指定的十二人狼王守衛局不盡相同。該網站的第一夜主要用來確認身份，不淘汰玩家；其狼人勝利條件與存活人數追平或超越好人有關。\n遊戲以日夜循環、白天討論與投票、夜晚角色行動為核心，但這個線上版本還有自己的角色集合與投票處理方式。這裡把它當成對照資料，避免把它的第一夜與勝利條件誤套到固定狼王守衛板。",
+  "observations": [
+    {
+      "id": "E001",
+      "source": "S05",
+      "scope": "JINRO_BROWSER",
+      "key": "wolf_victory",
+      "value": "parity",
+      "note": "本站實作：狼人數追平或超過好人時勝利",
+      "location": "#勝負怎麼判定",
+      "source_record_order": 0
+    },
+    {
+      "id": "E004",
+      "source": "S05",
+      "scope": "JINRO_BROWSER",
+      "key": "first_night_attack",
+      "value": "no_kill",
+      "note": "線上版本第一夜無人出局",
+      "location": "#玩法",
+      "source_record_order": 3
+    },
+    {
+      "id": "E006",
+      "source": "S05",
+      "scope": "JINRO_BROWSER",
+      "key": "guard_repeat",
+      "value": "configurable",
+      "note": "守衛能否連守是工具可選參數",
+      "location": "#可以在設定裡改的規則",
+      "source_record_order": 5
+    }
+  ]
+}

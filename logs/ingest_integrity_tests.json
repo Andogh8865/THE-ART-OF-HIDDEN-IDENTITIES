@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-21T05:02:16+00:00",
+  "passed": 15,
+  "total": 15,
+  "result": "PASS",
+  "checks": {
+    "ingest_status_pass": true,
+    "min_five_sources": true,
+    "seven_independent_inputs": true,
+    "all_hashed_inputs_match": true,
+    "source_count_consistency": true,
+    "chunk_count_consistency": true,
+    "every_source_has_chunks": true,
+    "every_chunk_hash_valid": true,
+    "all_observations_have_source": true,
+    "evidence_count_consistency": true,
+    "graph_reads_seven_sources": true,
+    "graph_v1_detects_three": true,
+    "graph_v2_detects_zero": true,
+    "html_report_generated": true,
+    "report_links_in_deck": true
+  }
+}

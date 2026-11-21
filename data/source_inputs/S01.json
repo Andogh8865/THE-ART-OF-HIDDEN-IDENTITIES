@@ -1,0 +1,49 @@
+{
+  "source": {
+    "id": "S01",
+    "title": "冒險安迪｜狼人殺角色能力和基礎規則",
+    "url": "https://andyventure.com/boardgame-langrensha/",
+    "scope": "GENERAL_LANGRENSHA",
+    "type": "beginner guide",
+    "summary": "介紹狼人殺陣營、狼人與狼王等角色能力，並提到不同遊戲版本。"
+  },
+  "capture": {
+    "method": "researcher_paraphrase_of_web_verified_article",
+    "reviewed_on": "2026-11-21",
+    "original_full_text_included": false,
+    "notice": "已查閱網頁並整理為原創中文來源筆記；不是自動 HTTP 全文下載。"
+  },
+  "reviewed_text": "這篇新手導覽將台灣常見的狼人殺與米勒山谷狼人區分，提醒讀者不同版本可能採用不同能力與規範。狼人與其他狼隊友在夜間選擇攻擊目標；狼王通常在符合條件的出局時可額外帶走一人，但因女巫毒藥等特殊原因出局時不能啟動該能力。\n神職常見預言家、女巫、獵人、守衛。女巫有一瓶解藥和一瓶毒藥，文章以不自救為主要說法，同時提及部分新手局會開放第一夜自救。守衛可以保護自己或他人，但不能連續兩夜守同一玩家；獵人被投票放逐或被狼人擊殺可反擊，被毒殺則不可。\n主持人帶領夜晚角色依序行動，白天由玩家發言與投票。這份資料用於角色基礎概念，不能直接替所有十二人板子決定完整規則。",
+  "observations": [
+    {
+      "id": "E019",
+      "source": "S01",
+      "scope": "GENERAL_LANGRENSHA",
+      "key": "alpha_death_shot",
+      "value": "allowed_nonpoison",
+      "note": "狼王正常出局可帶人，被女巫毒則不可",
+      "location": "#狼王",
+      "source_record_order": 18
+    },
+    {
+      "id": "E023",
+      "source": "S01",
+      "scope": "GENERAL_LANGRENSHA",
+      "key": "separate_versions",
+      "value": "yes",
+      "note": "狼人殺與米勒山谷狼人有不同細節",
+      "location": "#狼人殺桌遊簡介",
+      "source_record_order": 22
+    },
+    {
+      "id": "E032",
+      "source": "S01",
+      "scope": "GENERAL_LANGRENSHA",
+      "key": "werewolf_kill",
+      "value": "one_target_per_night",
+      "note": "狼人夜晚共同決定刀一位玩家",
+      "location": "#狼人",
+      "source_record_order": 31
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Werewolf Academy｜Ingest 紀錄</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;background:#091321;color:#ebeff5;line-height:1.6}a{color:#e4c48a;text-decoration:none}a:hover{text-decoration:underline}header,main{max-width:1050px;margin:auto;padding:24px}nav{display:flex;gap:22px;flex-wrap:wrap}h1{font-size:clamp(32px,5vw,55px);line-height:1.1;margin:24px 0 8px}.sub{color:#aab8c6}.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:24px 0}.metric,.source,.notice{padding:20px;background:#122236;border:1px solid #294058;border-radius:15px}.metric strong{font-size:30px;display:block;color:#f0cf91}.metric small{color:#aab8c6}.source{margin:12px 0}.head{display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}.pill{font-size:12px;padding:4px 9px;border-radius:20px;background:#1a493e;color:#c8ebd8}.stats{display:flex;gap:20px;flex-wrap:wrap;font-size:14px;color:#c5d1e2}code{overflow-wrap:anywhere}small{color:#95a8be}.notice{background:#1b2837;border-color:#846c46}pre{padding:16px;border-radius:12px;background:#07111b;overflow:auto}footer{padding:24px 0;color:#aab8c6;font-size:13px}
+</style></head><body><header><nav><a href="index.html">← 教學簡報</a><a href="wiki/index.html">狼人殺 Wiki</a><a href="logs/ingest_run.json">原始 Log</a><a href="docs/graph.md">Graph 說明</a></nav></header><main>
+<div class="sub">EVIDENCE-FIRST PIPELINE / SOURCE INGESTION</div><h1>資料匯入檢查紀錄</h1><p class="sub">以下數字由 <code>pipeline/ingest_sources.py</code> 逐篇讀取來源文件後自動產生。</p>
+<div class="summary"><div class="metric"><strong>7</strong><small>匯入的來源筆記數</small></div><div class="metric"><strong>16</strong><small>可索引知識段落</small></div><div class="metric"><strong>33</strong><small>來源連結規則證據</small></div><div class="metric"><strong>PASS</strong><small>至少 5 筆資料驗證</small></div></div>
+<section class="notice"><strong>資料範圍聲明</strong><p>本專案確實使用程式匯入七份獨立的公開網頁來源摘記，並執行驗證、分段、索引及來源證據對應。這七份摘記經網頁核對後重新撰寫，並非七個網站的完整 HTML 自動下載。若課堂要求真正的網站全文抓取，需再於可連網環境執行 <code>pipeline/fetch_sources.py</code>，並提供其成功紀錄。</p></section>
+<h2>逐篇匯入記錄</h2><article class="source">
+<div class="head"><strong>S01 — 冒險安迪｜狼人殺角色能力和基礎規則</strong><span class="pill">INGESTED</span></div>
+<p><a href="https://andyventure.com/boardgame-langrensha/" target="_blank" rel="noopener noreferrer">原始網頁 ↗</a> · <a href="data/source_inputs/S01.json">匯入的來源筆記</a></p>
+<div class="stats"><span>筆記字數 274</span><span>分段 3</span><span>證據 3</span></div>
+<small>SHA-256 <code>25e9d5bffde991568bca3434d6ac06ba3fb09efc055df46600a86aff6f54f917</code></small></article><article class="source">
+<div class="head"><strong>S02 — 維基學院｜狼人殺板子</strong><span class="pill">INGESTED</span></div>
+<p><a href="https://zh.wikiversity.org/zh-hant/狼人殺/板子" target="_blank" rel="noopener noreferrer">原始網頁 ↗</a> · <a href="data/source_inputs/S02.json">匯入的來源筆記</a></p>
+<div class="stats"><span>筆記字數 152</span><span>分段 2</span><span>證據 2</span></div>
+<small>SHA-256 <code>b1ccb75d169fc06c3c1718e843c009302fb0957fa4e1fd3cdc502f6c002b51af</code></small></article><article class="source">
+<div class="head"><strong>S03 — 狼人殺規則完整指南｜ZZStation</strong><span class="pill">INGESTED</span></div>
+<p><a href="https://math.zzstation.com/werewolf/rules/" target="_blank" rel="noopener noreferrer">原始網頁 ↗</a> · <a href="data/source_inputs/S03.json">匯入的來源筆記</a></p>
+<div class="stats"><span>筆記字數 264</span><span>分段 3</span><span>證據 14</span></div>
+<small>SHA-256 <code>f461bdd6f5bc0f22ec720486bc730c55e31772c0032698b4a6ae1998a255563f</code></small></article><article class="source">
+<div class="head"><strong>S04 — Kuakua｜狼人殺主持人工具說明</strong><span class="pill">INGESTED</span></div>
+<p><a href="https://kuakua.app/zh-TW/games/werewolf" target="_blank" rel="noopener noreferrer">原始網頁 ↗</a> · <a href="data/source_inputs/S04.json">匯入的來源筆記</a></p>
+<div class="stats"><span>筆記字數 176</span><span>分段 2</span><span>證據 5</span></div>
+<small>SHA-256 <code>0322c8a1eab4487e86afd944286927ae72e8e689e3b52f1f2a4321935257f742</code></small></article><article class="source">
+<div class="head"><strong>S05 — Jinro Game｜狼人殺規則與玩法</strong><span class="pill">INGESTED</span></div>
+<p><a href="https://jinro-game.com/zh-hant/rules/" target="_blank" rel="noopener noreferrer">原始網頁 ↗</a> · <a href="data/source_inputs/S05.json">匯入的來源筆記</a></p>
+<div class="stats"><span>筆記字數 171</span><span>分段 2</span><span>證據 3</span></div>
+<small>SHA-256 <code>beaf9a9668bbb23ce5b477a74814fef282e37fc45b59fcc54649f87da3eeb406</code></small></article><article class="source">
+<div class="head"><strong>S06 — Wikipedia｜米勒山谷狼人</strong><span class="pill">INGESTED</span></div>
+<p><a href="https://zh.wikipedia.org/wiki/米勒山谷狼人" target="_blank" rel="noopener noreferrer">原始網頁 ↗</a> · <a href="data/source_inputs/S06.json">匯入的來源筆記</a></p>
+<div class="stats"><span>筆記字數 149</span><span>分段 2</span><span>證據 1</span></div>
+<small>SHA-256 <code>a3bfeb36c48ae52be6e72ef1e0042da2941facedad6cd0f3df26f4028636ff5e</code></small></article><article class="source">
+<div class="head"><strong>S07 — Mentiss｜Werewolf Role Guide</strong><span class="pill">INGESTED</span></div>
+<p><a href="https://werewolf.mentiss.ai/en/play/roles" target="_blank" rel="noopener noreferrer">原始網頁 ↗</a> · <a href="data/source_inputs/S07.json">匯入的來源筆記</a></p>
+<div class="stats"><span>筆記字數 196</span><span>分段 2</span><span>證據 5</span></div>
+<small>SHA-256 <code>81f71cc96f6060b88456db7c25dd10fd5519d03d2934809a564167bc3ba48150</code></small></article><h2>重新執行指令</h2><pre>python pipeline/ingest_sources.py
+python pipeline/graph.py --demo-both</pre>
+<p><a href="data/ingested_sources.json">查看知識庫資料 JSON ↗</a></p><p><a href="data/source_chunks.json">查看原創筆記的段落索引 ↗</a></p>
+<footer>Generated 2026-11-21T05:01:16+00:00 UTC · 檔案雜湊與各來源筆記成功紀錄均保存於 logs/ingest_run.json。</footer></main></body></html>

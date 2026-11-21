@@ -1,0 +1,39 @@
+{
+  "source": {
+    "id": "S02",
+    "title": "維基學院｜狼人殺板子",
+    "url": "https://zh.wikiversity.org/zh-hant/狼人殺/板子",
+    "scope": "WKG12",
+    "type": "board configuration",
+    "summary": "列出十二人狼王守衛局的三狼一狼王、四神四民配置及屠邊規則。"
+  },
+  "capture": {
+    "method": "researcher_paraphrase_of_web_verified_article",
+    "reviewed_on": "2026-11-21",
+    "original_full_text_included": false,
+    "notice": "已查閱網頁並整理為原創中文來源筆記；不是自動 HTTP 全文下載。"
+  },
+  "reviewed_text": "維基學院的板子一覽依照參與人數列出不同組合。十二人競技常見四名神職、四名平民與四名狼隊，通常設置警長，並以屠邊作為勝利條件。\n十二人的狼王守衛組合為三名普通狼人加一名狼王；好人方有預言家、女巫、獵人、守衛四種神職，另有四名平民。相近的十二人板子可以把狼王或第四神換成別的角色，所以選擇具體板子名稱很重要。",
+  "observations": [
+    {
+      "id": "E003",
+      "source": "S02",
+      "scope": "WKG12",
+      "key": "wolf_victory",
+      "value": "side_wipe",
+      "note": "十二人常見競技板子：屠邊",
+      "location": "#十二人局",
+      "source_record_order": 2
+    },
+    {
+      "id": "E008",
+      "source": "S02",
+      "scope": "WKG12",
+      "key": "board_composition",
+      "value": "3W_1A_4G_4V",
+      "note": "3 普通狼人、1 狼王、4 神、4 民",
+      "location": "#十二人局",
+      "source_record_order": 7
+    }
+  ]
+}

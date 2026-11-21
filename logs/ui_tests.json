@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-21T05:00:53+00:00",
+  "tests": [
+    {
+      "name": "title",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "10_slides",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "first_slide_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "navigation_next",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "role_card_flip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "double_save_result",
+      "pass": true,
+      "detail": "🌑\nDAWN RESULT\n同守同救：6 號出局\n\n6 號遭同守同救，仍然出局。\n\n核對規則：C005 · S03"
+    },
+    {
+      "name": "guard_repeat_validation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "heal_only_survives",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "poison_action",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "quiz_3_of_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_js_errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "wiki_18_entries",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "wiki_7_sources",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "wiki_search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_wiki_js_errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "mobile_document_width",
+      "pass": true,
+      "detail": "390"
+    }
+  ],
+  "passed": 16,
+  "total": 16,
+  "result": "PASS"
+}

@@ -1,0 +1,381 @@
+[
+  {
+    "id": "C001",
+    "key": "board_composition",
+    "expected": "3W_1A_4G_4V",
+    "topic": "準備",
+    "title": "12 人狼王守衛配置",
+    "explanation": "三名普通狼人、一名狼王、預言家、女巫、獵人、守衛以及四名平民。",
+    "slides": [
+      2,
+      3
+    ],
+    "value": "3W_1A_4G_4V",
+    "evidence_ids": [
+      "E008",
+      "E009"
+    ],
+    "source_ids": [
+      "S02",
+      "S04"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C002",
+    "key": "wolf_victory",
+    "expected": "side_wipe",
+    "topic": "勝利",
+    "title": "狼人屠邊勝利",
+    "explanation": "所有神職或所有平民出局，狼人勝利；所有狼人出局，好人勝利。",
+    "slides": [
+      2,
+      6
+    ],
+    "value": "side_wipe",
+    "evidence_ids": [
+      "E002",
+      "E003"
+    ],
+    "source_ids": [
+      "S02",
+      "S04"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C003",
+    "key": "first_night_attack",
+    "expected": "normal_kill",
+    "topic": "流程",
+    "title": "首夜照常刀人",
+    "explanation": "本板第一夜照常行動與結算，並非第一夜必定無人出局。",
+    "slides": [
+      5
+    ],
+    "value": "normal_kill",
+    "evidence_ids": [
+      "E005"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C004",
+    "key": "guard_repeat",
+    "expected": "forbidden",
+    "topic": "角色",
+    "title": "守衛不能連守",
+    "explanation": "守衛不能連續兩晚守護同一位玩家，但可隔夜再次守護。",
+    "slides": [
+      4,
+      7
+    ],
+    "value": "forbidden",
+    "evidence_ids": [
+      "E007"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C005",
+    "key": "double_save",
+    "expected": "dies",
+    "topic": "結算",
+    "title": "同守同救仍死亡",
+    "explanation": "狼人刀口、守衛與女巫解藥同時指向同一人，該玩家仍會死亡。",
+    "slides": [
+      7,
+      9
+    ],
+    "value": "dies",
+    "evidence_ids": [
+      "E010"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C006",
+    "key": "guard_self",
+    "expected": "allowed",
+    "topic": "角色",
+    "title": "守衛可以守自己",
+    "explanation": "守衛可選自己作為當晚守護對象（仍不可連守同一人）。",
+    "slides": [
+      4
+    ],
+    "value": "allowed",
+    "evidence_ids": [
+      "E012"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C007",
+    "key": "witch_self_heal",
+    "expected": "forbidden",
+    "topic": "角色",
+    "title": "女巫不可自救",
+    "explanation": "本板女巫不能用解藥救自己，包含第一夜。",
+    "slides": [
+      4
+    ],
+    "value": "forbidden",
+    "evidence_ids": [
+      "E013"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C008",
+    "key": "witch_one_per_night",
+    "expected": "yes",
+    "topic": "角色",
+    "title": "女巫同晚只能用一瓶藥",
+    "explanation": "女巫不能在同一個夜晚又使用解藥又使用毒藥。",
+    "slides": [
+      4,
+      7
+    ],
+    "value": "yes",
+    "evidence_ids": [
+      "E015"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C009",
+    "key": "poison_unblockable",
+    "expected": "yes",
+    "topic": "結算",
+    "title": "毒藥不可被守護抵銷",
+    "explanation": "本板守衛無法抵擋女巫毒藥，解藥也不能解毒。",
+    "slides": [
+      7
+    ],
+    "value": "yes",
+    "evidence_ids": [
+      "E016"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C010",
+    "key": "hunter_poison_shot",
+    "expected": "forbidden",
+    "topic": "角色",
+    "title": "獵人被毒不能開槍",
+    "explanation": "獵人被狼人殺害或被票出可以開槍；被女巫毒殺不得開槍。",
+    "slides": [
+      4,
+      9
+    ],
+    "value": "forbidden",
+    "evidence_ids": [
+      "E017"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C011",
+    "key": "alpha_death_shot",
+    "expected": "allowed_nonpoison",
+    "topic": "角色",
+    "title": "狼王正常出局可帶人",
+    "explanation": "狼王被正常淘汰可帶走一位玩家，遭女巫毒殺時不能發動。",
+    "slides": [
+      4
+    ],
+    "value": "allowed_nonpoison",
+    "evidence_ids": [
+      "E019",
+      "E020"
+    ],
+    "source_ids": [
+      "S01",
+      "S07"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C012",
+    "key": "sheriff_vote",
+    "expected": "1.5",
+    "topic": "白天",
+    "title": "警長放逐投票 1.5 票",
+    "explanation": "本板的警長在放逐投票擁有 1.5 票，警長不是獨立角色牌。",
+    "slides": [
+      8
+    ],
+    "value": "1.5",
+    "evidence_ids": [
+      "E021",
+      "E022"
+    ],
+    "source_ids": [
+      "S03",
+      "S04"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C013",
+    "key": "separate_versions",
+    "expected": "yes",
+    "topic": "版本",
+    "title": "不可混用不同版本",
+    "explanation": "狼人殺、米勒山谷狼人及各網站自訂規則並非完全相同，須標註版本。",
+    "slides": [
+      10
+    ],
+    "value": "yes",
+    "evidence_ids": [
+      "E023"
+    ],
+    "source_ids": [
+      "S01"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C014",
+    "key": "night_day_loop",
+    "expected": "night_dawn_discuss_vote",
+    "topic": "流程",
+    "title": "晝夜循環",
+    "explanation": "夜晚技能→天亮公布死訊→白天討論→放逐投票，直到勝利條件成立。",
+    "slides": [
+      5
+    ],
+    "value": "night_dawn_discuss_vote",
+    "evidence_ids": [
+      "E025",
+      "E026"
+    ],
+    "source_ids": [
+      "S03",
+      "S04"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C015",
+    "key": "seer_check",
+    "expected": "one_alignment_per_night",
+    "topic": "角色",
+    "title": "預言家每晚查一位陣營",
+    "explanation": "預言家每晚驗一位玩家，獲知好人或狼人陣營資訊。",
+    "slides": [
+      4
+    ],
+    "value": "one_alignment_per_night",
+    "evidence_ids": [
+      "E027"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C016",
+    "key": "witch_potions",
+    "expected": "one_heal_one_poison",
+    "topic": "角色",
+    "title": "女巫各有一瓶解毒藥",
+    "explanation": "女巫擁有一瓶解藥與一瓶毒藥，各使用一次。",
+    "slides": [
+      4
+    ],
+    "value": "one_heal_one_poison",
+    "evidence_ids": [
+      "E029",
+      "E030"
+    ],
+    "source_ids": [
+      "S03",
+      "S04"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C017",
+    "key": "villager_ability",
+    "expected": "no_night_skill",
+    "topic": "角色",
+    "title": "平民依靠討論與投票",
+    "explanation": "平民不具主動夜間技能，需要透過言語及投票協助好人找狼。",
+    "slides": [
+      4
+    ],
+    "value": "no_night_skill",
+    "evidence_ids": [
+      "E031"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  },
+  {
+    "id": "C018",
+    "key": "werewolf_kill",
+    "expected": "one_target_per_night",
+    "topic": "角色",
+    "title": "狼人每夜共同刀一人",
+    "explanation": "普通狼人陣營夜晚一起選定一位目標攻擊。",
+    "slides": [
+      4,
+      5
+    ],
+    "value": "one_target_per_night",
+    "evidence_ids": [
+      "E033"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "board": "WKG12",
+    "status": "evidence_checked"
+  }
+]

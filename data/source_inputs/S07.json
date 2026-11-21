@@ -1,0 +1,69 @@
+{
+  "source": {
+    "id": "S07",
+    "title": "Mentiss｜Werewolf Role Guide",
+    "url": "https://werewolf.mentiss.ai/en/play/roles",
+    "scope": "GENERAL_LANGRENSHA",
+    "type": "role reference",
+    "summary": "介紹狼王、女巫、獵人和預言家等角色能力，供交叉查驗。"
+  },
+  "capture": {
+    "method": "researcher_paraphrase_of_web_verified_article",
+    "reviewed_on": "2026-11-21",
+    "original_full_text_included": false,
+    "notice": "已查閱網頁並整理為原創中文來源筆記；不是自動 HTTP 全文下載。"
+  },
+  "reviewed_text": "Mentiss 的英文角色指南把警長當成經由選舉取得的身份外職位，並給予放逐票權與主持發言方向的效果。普通狼人與狼王屬於狼方；狼王在特定出局情況可以帶走一名玩家，而遭女巫毒殺時不行。\n女巫、獵人、守衛等技能在該系統內存在交互判定：守護與解藥同時落在同一個被刀目標仍可能造成致命衝突；一般守衛的防護和女巫解毒各有明確限制。由於該系統另收錄機械狼等特殊角色，本教學只使用與主要板子相符的基礎規則。",
+  "observations": [
+    {
+      "id": "E011",
+      "source": "S07",
+      "scope": "GENERAL_LANGRENSHA",
+      "key": "double_save",
+      "value": "dies",
+      "note": "同守同救保留致命衝突",
+      "location": "role-guide",
+      "source_record_order": 10
+    },
+    {
+      "id": "E014",
+      "source": "S07",
+      "scope": "GENERAL_LANGRENSHA",
+      "key": "witch_self_heal",
+      "value": "forbidden",
+      "note": "Mentiss 版本女巫亦不可自救",
+      "location": "role-guide",
+      "source_record_order": 13
+    },
+    {
+      "id": "E018",
+      "source": "S07",
+      "scope": "GENERAL_LANGRENSHA",
+      "key": "hunter_poison_shot",
+      "value": "forbidden",
+      "note": "獵人被毒淘汰不可開槍",
+      "location": "role-guide",
+      "source_record_order": 17
+    },
+    {
+      "id": "E020",
+      "source": "S07",
+      "scope": "GENERAL_LANGRENSHA",
+      "key": "alpha_death_shot",
+      "value": "allowed_nonpoison",
+      "note": "Alpha Wolf 被淘汰時可帶人，但女巫毒除外",
+      "location": "role-guide",
+      "source_record_order": 19
+    },
+    {
+      "id": "E028",
+      "source": "S07",
+      "scope": "GENERAL_LANGRENSHA",
+      "key": "seer_check",
+      "value": "one_alignment_per_night",
+      "note": "Seer 每晚查驗陣營",
+      "location": "role-guide",
+      "source_record_order": 27
+    }
+  ]
+}
