@@ -1,0 +1,174 @@
+{
+  "run_id": "20261121T042744Z_v2",
+  "board": "WKG12",
+  "mode": "v2",
+  "ingestion": "7 manually reviewed, paraphrased source evidence sets (not full-text HTTP downloads)",
+  "source_count": 7,
+  "evidence_record_count": 33,
+  "claim_count": 18,
+  "alternative_version_evidence": 3,
+  "first_pass_late_errors": 0,
+  "late_repaired_claims": 0,
+  "content_qa_attempts": 1,
+  "static_html_qa_passes": 8,
+  "result": "PASS (final)",
+  "variant_conflicts": [
+    {
+      "claim": "C002",
+      "key": "wolf_victory",
+      "alternative_value": "parity",
+      "scope": "JINRO_BROWSER",
+      "source": "S05",
+      "evidence_id": "E001",
+      "action": "kept as version variant; excluded from target board"
+    },
+    {
+      "claim": "C003",
+      "key": "first_night_attack",
+      "alternative_value": "no_kill",
+      "scope": "JINRO_BROWSER",
+      "source": "S05",
+      "evidence_id": "E004",
+      "action": "kept as version variant; excluded from target board"
+    },
+    {
+      "claim": "C004",
+      "key": "guard_repeat",
+      "alternative_value": "configurable",
+      "scope": "JINRO_BROWSER",
+      "source": "S05",
+      "evidence_id": "E006",
+      "action": "kept as version variant; excluded from target board"
+    }
+  ],
+  "first_pass_errors": [],
+  "repairs": [],
+  "events": [
+    {
+      "at": "2026-11-21T04:27:44+00:00",
+      "node": "ingest",
+      "attempt": 1,
+      "outcome": "PASS",
+      "detail": "7-source short evidence corpus parsed; 7 distinct sources",
+      "source_count": 7,
+      "mode": "reviewed evidence extracts; not live fetch"
+    },
+    {
+      "at": "2026-11-21T04:27:44+00:00",
+      "node": "parse",
+      "attempt": 1,
+      "outcome": "PASS",
+      "detail": "Validated 33 source-linked evidence records",
+      "evidence_count": 33
+    },
+    {
+      "at": "2026-11-21T04:27:44+00:00",
+      "node": "extract",
+      "attempt": 1,
+      "outcome": "PASS",
+      "detail": "Normalized 18 teachable claims into keys",
+      "rule_count": 18
+    },
+    {
+      "at": "2026-11-21T04:27:44+00:00",
+      "node": "classify",
+      "attempt": 1,
+      "outcome": "PASS",
+      "detail": "Scoped 18 claims to WKG12 and separated 3 variant observations",
+      "version_variants": 3
+    },
+    {
+      "at": "2026-11-21T04:27:44+00:00",
+      "node": "evidence_qa",
+      "attempt": 1,
+      "outcome": "PASS",
+      "detail": "All 18 claims have version-scoped evidence"
+    },
+    {
+      "at": "2026-11-21T04:27:44+00:00",
+      "node": "wiki",
+      "attempt": 1,
+      "outcome": "PASS",
+      "detail": "Created wiki records from approved version-scoped claims"
+    },
+    {
+      "at": "2026-11-21T04:27:44+00:00",
+      "node": "plan_slides",
+      "attempt": 1,
+      "outcome": "PASS",
+      "detail": "Mapped claims to 10 teaching sections (including cover)"
+    },
+    {
+      "at": "2026-11-21T04:27:44+00:00",
+      "node": "draft_slides",
+      "attempt": 1,
+      "outcome": "PASS",
+      "detail": "Drafted page-linked teaching claims from current wiki"
+    },
+    {
+      "at": "2026-11-21T04:27:44+00:00",
+      "node": "content_qa",
+      "attempt": 1,
+      "outcome": "PASS",
+      "detail": "All final slides match approved WKG12 rules and cite evidence"
+    },
+    {
+      "at": "2026-11-21T04:27:44+00:00",
+      "node": "build_html",
+      "attempt": 1,
+      "outcome": "PASS",
+      "detail": "Generated index.html and wiki/index.html from same verified JSON"
+    },
+    {
+      "at": "2026-11-21T04:27:44+00:00",
+      "node": "html_qa",
+      "attempt": 1,
+      "outcome": "PASS",
+      "detail": "8 static HTML checks passed",
+      "checks": {
+        "slide_anchors_10": true,
+        "role_flip_control": true,
+        "night_simulator": true,
+        "quiz": true,
+        "claim_citations": true,
+        "wiki_search": true,
+        "seven_sources": true,
+        "no_missing_template": true
+      }
+    }
+  ],
+  "html_checks": [
+    {
+      "name": "slide_anchors_10",
+      "pass": true
+    },
+    {
+      "name": "role_flip_control",
+      "pass": true
+    },
+    {
+      "name": "night_simulator",
+      "pass": true
+    },
+    {
+      "name": "quiz",
+      "pass": true
+    },
+    {
+      "name": "claim_citations",
+      "pass": true
+    },
+    {
+      "name": "wiki_search",
+      "pass": true
+    },
+    {
+      "name": "seven_sources",
+      "pass": true
+    },
+    {
+      "name": "no_missing_template",
+      "pass": true
+    }
+  ]
+}
