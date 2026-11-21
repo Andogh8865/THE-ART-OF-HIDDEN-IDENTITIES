@@ -1,0 +1,29 @@
+{
+  "source": {
+    "id": "S06",
+    "title": "Wikipedia｜米勒山谷狼人",
+    "url": "https://zh.wikipedia.org/wiki/米勒山谷狼人",
+    "scope": "MILLERS_HOLLOW",
+    "type": "historical variant",
+    "summary": "另一桌遊分支的歷史、角色及變體，用於說明不同系統不能直接混用。"
+  },
+  "capture": {
+    "method": "researcher_paraphrase_of_web_verified_article",
+    "reviewed_on": "2026-11-21",
+    "original_full_text_included": false,
+    "notice": "已查閱網頁並整理為原創中文來源筆記；不是自動 HTTP 全文下載。"
+  },
+  "reviewed_text": "米勒山谷狼人是一種以角色與陣營辨識為核心的多人桌遊，具有原版和數種擴充內容。遊戲由狼人夜間攻擊、村民白天討論與投票推進，並由主持人主持。\n雖然玩法和華語常見狼人殺有許多相似處，但角色系統和特殊規範可能不同。這篇資料在 Wiki 中主要負責建立「規則版本與作品差異」概念，不充當本教學的夜晚結算依據。",
+  "observations": [
+    {
+      "id": "E024",
+      "source": "S06",
+      "scope": "MILLERS_HOLLOW",
+      "key": "separate_versions",
+      "value": "yes",
+      "note": "米勒山谷狼人屬不同的作品與擴充系統",
+      "location": "#序言",
+      "source_record_order": 23
+    }
+  ]
+}

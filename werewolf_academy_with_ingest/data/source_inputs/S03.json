@@ -1,0 +1,159 @@
+{
+  "source": {
+    "id": "S03",
+    "title": "狼人殺規則完整指南｜ZZStation",
+    "url": "https://math.zzstation.com/werewolf/rules/",
+    "scope": "WKG12",
+    "type": "rules engine guide",
+    "summary": "說明夜間結算、守衛、女巫、獵人、警長及同守同救的本地規則。"
+  },
+  "capture": {
+    "method": "researcher_paraphrase_of_web_verified_article",
+    "reviewed_on": "2026-11-21",
+    "original_full_text_included": false,
+    "notice": "已查閱網頁並整理為原創中文來源筆記；不是自動 HTTP 全文下載。"
+  },
+  "reviewed_text": "這份面殺規則指南把一局分成夜間行動、早晨公布結果、白天討論和放逐投票。主持人引導守衛、狼人、預言家、女巫等角色，並在晨間處理昨夜結算。\n守衛可選擇自己或其他玩家，但不可連續兩個晚上保護同一人；守護可以阻擋狼刀。女巫的解藥可以解除當晚狼刀、毒藥可另外造成死亡，每局各一瓶且每晚至多使用一瓶。同一個被刀目標同時被守衛保護和女巫救治，依這份規則仍視為死亡；毒藥也不能靠一般守護來抵擋。\n獵人因狼刀或放逐而出局可帶走其他玩家，被女巫毒殺則不能開槍。投票中的警長權重是一般玩家的一點五倍。這是具體網站的規則實作，不能無條件推廣到所有家規。",
+  "observations": [
+    {
+      "id": "E005",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "first_night_attack",
+      "value": "normal_kill",
+      "note": "夜間狼人刀口進入結算，首夜可公布死者",
+      "location": "#三一局的完整流程",
+      "source_record_order": 4
+    },
+    {
+      "id": "E007",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "guard_repeat",
+      "value": "forbidden",
+      "note": "不可連續兩晚守同一人",
+      "location": "#五守衛的三條規則",
+      "source_record_order": 6
+    },
+    {
+      "id": "E010",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "double_save",
+      "value": "dies",
+      "note": "女巫解藥與守衛同時作用於刀口時，目標仍死亡",
+      "location": "#四夜晚的結算順序",
+      "source_record_order": 9
+    },
+    {
+      "id": "E012",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "guard_self",
+      "value": "allowed",
+      "note": "守衛可以守自己",
+      "location": "#五守衛的三條規則",
+      "source_record_order": 11
+    },
+    {
+      "id": "E013",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "witch_self_heal",
+      "value": "forbidden",
+      "note": "本版本女巫全程不可自救",
+      "location": "#六女巫的四條規則",
+      "source_record_order": 12
+    },
+    {
+      "id": "E015",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "witch_one_per_night",
+      "value": "yes",
+      "note": "同一晚只可使用一瓶藥",
+      "location": "#六女巫的四條規則",
+      "source_record_order": 14
+    },
+    {
+      "id": "E016",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "poison_unblockable",
+      "value": "yes",
+      "note": "毒藥不能被守衛或解藥阻擋",
+      "location": "#四夜晚的結算順序",
+      "source_record_order": 15
+    },
+    {
+      "id": "E017",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "hunter_poison_shot",
+      "value": "forbidden",
+      "note": "被女巫毒死獵人不能開槍",
+      "location": "#七獵人開槍的時機",
+      "source_record_order": 16
+    },
+    {
+      "id": "E021",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "sheriff_vote",
+      "value": "1.5",
+      "note": "警長放逐票算 1.5 票",
+      "location": "#九投票與平票PK",
+      "source_record_order": 20
+    },
+    {
+      "id": "E025",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "night_day_loop",
+      "value": "night_dawn_discuss_vote",
+      "note": "夜晚→天亮→討論→投票重複直到勝利",
+      "location": "#三一局的完整流程",
+      "source_record_order": 24
+    },
+    {
+      "id": "E027",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "seer_check",
+      "value": "one_alignment_per_night",
+      "note": "預言家每晚驗一人好人/狼人",
+      "location": "#二角色一覽",
+      "source_record_order": 26
+    },
+    {
+      "id": "E029",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "witch_potions",
+      "value": "one_heal_one_poison",
+      "note": "女巫整局一解藥一毒藥",
+      "location": "#二角色一覽",
+      "source_record_order": 28
+    },
+    {
+      "id": "E031",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "villager_ability",
+      "value": "no_night_skill",
+      "note": "平民沒有主動夜間技能，靠發言投票",
+      "location": "#二角色一覽",
+      "source_record_order": 30
+    },
+    {
+      "id": "E033",
+      "source": "S03",
+      "scope": "WKG12",
+      "key": "werewolf_kill",
+      "value": "one_target_per_night",
+      "note": "狼人每晚選一位玩家",
+      "location": "#二角色一覽",
+      "source_record_order": 32
+    }
+  ]
+}

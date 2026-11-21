@@ -1,0 +1,32 @@
+digraph WikiGraph {
+  graph [rankdir=TB,bgcolor="transparent",pad="0.32",nodesep="0.33",ranksep="0.46",fontname="Noto Sans CJK TC"];
+  node [shape=box,style="rounded,filled",fillcolor="#13243a",color="#d7b87e",fontcolor="#f7f1e8",fontsize=12,fontname="Noto Sans CJK TC",margin="0.16,0.08"];
+  edge [color="#aa9671",fontcolor="#e4c98e",fontsize=10,fontname="Noto Sans CJK TC",arrowsize=.65];
+  ingest [label="Ingest 7 sources"];
+  parse [label="Parse + normalize"];
+  extract [label="Extract 18 claims"];
+  classify [label="Classify rule versions",fillcolor="#29483d"];
+  evidence [label="Evidence QA",shape=diamond,fillcolor="#4a3b26"];
+  wiki [label="Build traceable Wiki"];
+  plan [label="Plan 10 slides"];
+  draft [label="Draft teaching claims"];
+  qa [label="Content QA",shape=diamond,fillcolor="#4a3b26"];
+  repair [label="Repair mismatched claim",fillcolor="#49302b"];
+  html [label="Generate interactive HTML"];
+  htmlqa [label="HTML / interaction QA",shape=diamond,fillcolor="#4a3b26"];
+  publish [label="GitHub Pages-ready files",fillcolor="#29483d"];
+  stop [label="Stop + manual review",fillcolor="#49302b"];
+  ingest -> parse -> extract;
+  extract -> classify [label="V2"];
+  extract -> wiki [label="V1 baseline",style=dashed];
+  classify -> evidence;
+  evidence -> wiki [label="pass"];
+  evidence -> stop [label="missing evidence"];
+  wiki -> plan -> draft -> qa;
+  qa -> repair [label="fail"];
+  repair -> qa [label="retry ≤2"];
+  qa -> html [label="pass"];
+  html -> htmlqa;
+  htmlqa -> publish [label="pass"];
+  htmlqa -> stop [label="fail"];
+}

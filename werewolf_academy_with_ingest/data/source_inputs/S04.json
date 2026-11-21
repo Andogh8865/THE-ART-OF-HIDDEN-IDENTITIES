@@ -1,0 +1,69 @@
+{
+  "source": {
+    "id": "S04",
+    "title": "Kuakua｜狼人殺主持人工具說明",
+    "url": "https://kuakua.app/zh-TW/games/werewolf",
+    "scope": "WKG12",
+    "type": "host tool rules",
+    "summary": "介紹十二人狼王變體、警長票權、屠邊及主持人流程。"
+  },
+  "capture": {
+    "method": "researcher_paraphrase_of_web_verified_article",
+    "reviewed_on": "2026-11-21",
+    "original_full_text_included": false,
+    "notice": "已查閱網頁並整理為原創中文來源筆記；不是自動 HTTP 全文下載。"
+  },
+  "reviewed_text": "Kuakua 的主持人工具介紹以面對面狼人殺為主，主持人可管理身份發放、夜間行動、死亡、警徽和投票。十二人板子有多種變體，狼王版本包含三普通狼、一狼王、預言家、女巫、獵人和守衛。\n屠邊的狼隊勝利條件是讓全部神職或全部平民出局，而不是只比較狼人與好人的存活總人數。它的警長在第一天選出，放逐票權為一點五票，並可安排發言順序；警徽死亡時可以選擇移交或撕毀。",
+  "observations": [
+    {
+      "id": "E002",
+      "source": "S04",
+      "scope": "WKG12",
+      "key": "wolf_victory",
+      "value": "side_wipe",
+      "note": "12 人競技屠邊：神職或平民任一類全滅",
+      "location": "#屠邊和屠城是什麼意思",
+      "source_record_order": 1
+    },
+    {
+      "id": "E009",
+      "source": "S04",
+      "scope": "WKG12",
+      "key": "board_composition",
+      "value": "3W_1A_4G_4V",
+      "note": "狼王板：3 狼 + 狼王，預女獵守四神",
+      "location": "#標準12人板子怎麼配置",
+      "source_record_order": 8
+    },
+    {
+      "id": "E022",
+      "source": "S04",
+      "scope": "WKG12",
+      "key": "sheriff_vote",
+      "value": "1.5",
+      "note": "警長選票計 1.5 票",
+      "location": "#警長競選怎麼進行",
+      "source_record_order": 21
+    },
+    {
+      "id": "E026",
+      "source": "S04",
+      "scope": "WKG12",
+      "key": "night_day_loop",
+      "value": "night_dawn_discuss_vote",
+      "note": "主持人按夜晚及投票流程進行",
+      "location": "#如何用本工具玩狼人殺",
+      "source_record_order": 25
+    },
+    {
+      "id": "E030",
+      "source": "S04",
+      "scope": "WKG12",
+      "key": "witch_potions",
+      "value": "one_heal_one_poison",
+      "note": "女巫持有一瓶解藥與一瓶毒藥",
+      "location": "#經典狼人殺板子裡有哪些身份",
+      "source_record_order": 29
+    }
+  ]
+}
